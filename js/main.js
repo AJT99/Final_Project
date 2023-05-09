@@ -98,7 +98,7 @@ function createElemWithText(elemString = "p", text = "", className) {
   function createComments(commentsData) {
     if (!Array.isArray(commentsData)) {
       console.error("Invalid comments data");
-      return null;
+      return undefined;
     }
   
     const fragment = document.createDocumentFragment();
